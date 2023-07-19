@@ -1,0 +1,16 @@
+cl\awakelab\ejerciciogrupal\modelo\Cliente.class
+cl\awakelab\ejerciciogrupal\service\ClienteService.class
+cl\awakelab\ejerciciogrupal\service\ProfesionalService.class
+cl\awakelab\ejerciciogrupal\controller\ApiRestController.class
+cl\awakelab\ejerciciogrupal\controller\CapacitacionController.class
+cl\awakelab\ejerciciogrupal\controller\HomeController.class
+cl\awakelab\ejerciciogrupal\controller\UsuarioController.class
+cl\awakelab\ejerciciogrupal\service\repository\IClienteRepository.class
+cl\awakelab\ejerciciogrupal\service\AdministrativoService.class
+cl\awakelab\ejerciciogrupal\service\CapacitacionService.class
+cl\awakelab\ejerciciogrupal\service\repository\IAdministrativoRepository.class
+cl\awakelab\ejerciciogrupal\modelo\Capacitacion.class
+cl\awakelab\ejerciciogrupal\modelo\Profesional.class
+cl\awakelab\ejerciciogrupal\service\repository\ICapacitacionRepository.class
+cl\awakelab\ejerciciogrupal\service\repository\IProfesionalRepository.class
+cl\awakelab\ejerciciogrupal\modelo\Administrativo.class
