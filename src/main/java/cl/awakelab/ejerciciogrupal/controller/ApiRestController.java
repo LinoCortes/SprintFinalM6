@@ -41,4 +41,10 @@ public class ApiRestController {
         return capacitacionService.save(capacitacion);
       }
       
+      @RequestMapping(value="/api/profesional", method = RequestMethod.POST)
+      public Profesional createProfesional(@RequestBody Profesional profesional) {
+        return profesionalService.create(profesional);
+      }
+      
+      
 }
