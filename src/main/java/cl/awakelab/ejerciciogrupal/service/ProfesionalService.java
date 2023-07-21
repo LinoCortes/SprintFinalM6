@@ -22,4 +22,8 @@ public class ProfesionalService {
 	public List<Profesional> getAll(){
 		return iProfesionalRepository.findAll();
 	}
+	
+	public Profesional create(Profesional profesional) {
+		return iProfesionalRepository.save(profesional);
+	}
 }

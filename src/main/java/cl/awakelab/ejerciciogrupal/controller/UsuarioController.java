@@ -23,9 +23,6 @@ public class UsuarioController {
 	@Autowired
 	AdministrativoService administrativoService;
 	
-	//@Autowired
-	//AdministrativoService administrativoService;
-	
 	@RequestMapping(path = "/listar-usuarios", method = RequestMethod.GET)
     public ModelAndView mostrarListarUsuarios() {
 		ModelAndView model = new ModelAndView("listar-usuarios");
@@ -34,5 +31,10 @@ public class UsuarioController {
 		model.addObject("clientes",clienteService.getAll());
 		return model;
 		
+	}
+	
+	@RequestMapping(path = "/crear-usuario", method = RequestMethod.GET)
+    public ModelAndView mostrarCrearUsuarios() {
+		return new ModelAndView("crear-usuario");
 	}
 }
